@@ -5,8 +5,8 @@ import router from "./router";
 // INstancia del servidor:
 const app = express();
 
-// Usa el router para todas las rutas
-app.use("/", router);
+app.use(express.json()); // Leer dato de formularios
+app.use("/", router); // Usa el router para todas las rutas
 
 // Utilizar el archivo en cualquier otra parte del codigo
 export default app;
