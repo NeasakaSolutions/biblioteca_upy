@@ -12,5 +12,10 @@ npm install
 npm install express
 ```
 
+- Nodemon:
+```bash
+npm i -D nodemon
+```
+
 
 
